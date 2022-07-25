@@ -6,6 +6,7 @@ python3 many_plots-upt-v2.py -i 1_CCstar.dat 2_CCstar.dat -x '1/d' -y 'CC*' -o [
 
 You can add here as many files as you need.
 The result of this script will be [name of your plot with the extension] plot with CC* and Rsplit statistics for 1_ and 2_d datasets.
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 python3 auto-many_plots-v2.py -f  list_of_files.lst -x '1/d' -y 'CCano' -o /path_where_to_save_plot -x_lim_dw number1 -x_lim_up number2 -legend [put the legend here] 
@@ -32,3 +33,5 @@ K:name_of_the_plotK.png
 4_CCstar.dat:4_Rsplit.dat
 
 The result of running this script with CCstar-Rsplit.lst will be two plots (name_of_the_plot1.png, name_of_the_plot2.png), where on name_of_the_plot1.png you can see statistics from 1_ and 2_ datasets, etc.
+
+If you have any recomendations/suggestions, do not hesitate to contact me!
